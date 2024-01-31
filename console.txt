@@ -1,0 +1,4 @@
+alter table users add column join_date timestamp default current_timestamp;
+alter table customers add column join_date timestamp default current_timestamp;
+alter table firlansers add column join_date timestamp default current_timestamp;
+alter table products add column join_date timestamp default current_timestamp;
